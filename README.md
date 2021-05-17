@@ -19,7 +19,17 @@ First you need to download and install [NinjaTrader](https://www.ninjatrader.com
 
 ![image](https://user-images.githubusercontent.com/23218905/118494541-e0ca7f80-b6e7-11eb-8263-cb0dafa1bf11.png)
 
+4. Find Bybit in the list and click ADD.
 
+![image](https://user-images.githubusercontent.com/23218905/118495698-102dbc00-b6e9-11eb-9a78-260b8f38f47a.png)
+
+5. After you clicked add the connection will get added to the list of configured connections.
+6. You are free to give it any name you like. Please check that you have the correct version. The connection does not require any credentials. You may choose to connect on start up of NinjaTrader (use the available check box to configure this).
+7. Choose an applicable server address to your location.
+
+## Updates
+
+1. Updating the adapter requires you to first uninstall the old version. Please view the uninstalling information in this manual and then proceed with the installing steps again.
 
 ## Uninstalling
 
