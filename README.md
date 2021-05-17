@@ -21,4 +21,13 @@ First you need to download and install [NinjaTrader](https://www.ninjatrader.com
 
 
 
+## Uninstalling
+
+1. Go to Windows Control Panel -> Programs & Features and uninstall BybitAdapter
+
+![image](https://user-images.githubusercontent.com/23218905/118495170-909fed00-b6e8-11eb-963d-f5faa9062acc.png)
+
+
+
+
 
