@@ -1,1 +1,1 @@
-# ByBit NinjaTraderAdapter
+# ByBit NinjaTrader Adapter
