@@ -24,8 +24,17 @@ First you need to download and install [NinjaTrader](https://www.ninjatrader.com
 ![image](https://user-images.githubusercontent.com/23218905/118495698-102dbc00-b6e9-11eb-9a78-260b8f38f47a.png)
 
 5. After you clicked add the connection will get added to the list of configured connections.
-6. You are free to give it any name you like. Please check that you have the correct version. The connection does not require any credentials. You may choose to connect on start up of NinjaTrader (use the available check box to configure this).
-7. Choose an applicable server address to your location.
+
+![image](https://user-images.githubusercontent.com/23218905/118496212-88947d00-b6e9-11eb-8022-d10a99da1abf.png)
+
+7. You are free to give it any name you like. Please check that you have the correct version. The connection does not require any credentials. You may choose to connect on start up of NinjaTrader (use the available check box to configure this).
+8. Choose an applicable server address to your location.
+9. After you click OK the connection will become available in the list of available connections.
+
+![image](https://user-images.githubusercontent.com/23218905/118496351-abbf2c80-b6e9-11eb-8753-26a847e420dd.png)
+
+10. Click on the connection name to connect.
+11. You will see a green light in the bottom left hand corner after a successfull connection.
 
 ## Updates
 
