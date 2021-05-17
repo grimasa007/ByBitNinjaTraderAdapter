@@ -34,7 +34,10 @@ First you need to download and install [NinjaTrader](https://www.ninjatrader.com
 ![image](https://user-images.githubusercontent.com/23218905/118496351-abbf2c80-b6e9-11eb-8753-26a847e420dd.png)
 
 10. Click on the connection name to connect.
-11. You will see a green light in the bottom left hand corner after a successfull connection.
+11. You will see a green light in the bottom left hand corner in the NinjaTrader control center after a successfull connection.
+
+![image](https://user-images.githubusercontent.com/23218905/118496601-e3c66f80-b6e9-11eb-8aec-6024d64e53a5.png)
+
 
 ## Updates
 
@@ -45,6 +48,37 @@ First you need to download and install [NinjaTrader](https://www.ninjatrader.com
 1. Go to Windows Control Panel -> Programs & Features and uninstall BybitAdapter
 
 ![image](https://user-images.githubusercontent.com/23218905/118495170-909fed00-b6e8-11eb-963d-f5faa9062acc.png)
+
+## Creating an Instrument List
+
+1. After a connection you should be able to see a list of available symbols insde  **New -> BYBIT CONNECTOR** window. This window is only for reference.
+
+![image](https://user-images.githubusercontent.com/23218905/118496919-33a53680-b6ea-11eb-81a0-fca5850d1bd4.png)
+
+2. To create an instrument list that you can work with go to Tools -> Instrument Lists.
+3. In the left hand side of the window click add to create a list with a new name eg. MyByBitList
+
+![image](https://user-images.githubusercontent.com/23218905/118497213-7a932c00-b6ea-11eb-854a-6e1c3212fe11.png)
+
+4. To add an instrument click ADD on the right hand side whilst having the left hand side newly created list name selected. Search for the required symbol. All Bybit symbols will be post fixed with a _BYBIT eg. BTCUSDT_BYBIT
+
+![image](https://user-images.githubusercontent.com/23218905/118497584-d067d400-b6ea-11eb-8d70-3fe9322b6b0d.png)
+
+5. Add the symbol from the search to the list by double clicking it.
+6. Now this symbol will become available for you to work with inside your custom instrument list when opening a chart.
+7. Don't forget to click OK when leaving the instrument list window!!! You might loose your changes if you don't!
+8. To open a chart got to New -> Chart and find the symbol in the list.
+
+![image](https://user-images.githubusercontent.com/23218905/118497980-2b99c680-b6eb-11eb-9fbf-f93670088d13.png)
+
+## Important Notes
+
+- NinjaTrader accepts only min, day and tick data from ByBit. This means that the adapter feeds NinjaTrader with minute data from ByBit API and NinjaTrader builds all intraday bars using 1 min bars. Same is true for weekly, monthly and yearly bars that use dayily feed from ByBit API via the adapter. This means that you can expect quite similar to ByBit trading terminal bar plots for 1 min and 1 day charts but other types of charts can and probably will differ slightly.
+
+
+
+
+
 
 
 
