@@ -1,8 +1,8 @@
-# ByBit NinjaTrader Adapter
+# Bybit NinjaTrader Adapter
 
 [NinjaTrader](https://www.ninjatrader.com)  is a desktop application which allows trading. It also supports addons to allow third parties integrate their market data into the application.
 
-[ByBit](https://www.bybit.com) [NinjaTrader](https://www.ninjatrader.com) Adapter provides data from ByBit platform. Please note that only live data is provided, it can be used for analyzis and sim trading. Order routing is not supported and is against terms and conditions of [NinjaTrader](https://www.ninjatrader.com).
+[Bybit](https://www.bybit.com) [NinjaTrader](https://www.ninjatrader.com) Adapter provides data from Bybit platform. Please note that only live data is provided, it can be used for analyzis and sim trading. Order routing is not supported and is against terms and conditions of [NinjaTrader](https://www.ninjatrader.com).
 
 Source code is **NOT** provided due to NinjaTrader Terms & Conditions. You can download the installer **BybitAdapterInstallerV1_2.msi** using this repository to perform an installation.
 
@@ -56,7 +56,7 @@ First you need to download and install [NinjaTrader](https://www.ninjatrader.com
 ![image](https://user-images.githubusercontent.com/23218905/118496919-33a53680-b6ea-11eb-81a0-fca5850d1bd4.png)
 
 2. To create an instrument list that you can work with go to Tools -> Instrument Lists.
-3. In the left hand side of the window click add to create a list with a new name eg. MyByBitList
+3. In the left hand side of the window click add to create a list with a new name eg. MyBybitList
 
 ![image](https://user-images.githubusercontent.com/23218905/118497213-7a932c00-b6ea-11eb-854a-6e1c3212fe11.png)
 
@@ -73,9 +73,9 @@ First you need to download and install [NinjaTrader](https://www.ninjatrader.com
 
 ## Important Notes
 
-- NinjaTrader accepts only min, day and tick data from ByBit. This means that the adapter feeds NinjaTrader with minute data from ByBit API and NinjaTrader builds all intraday bars using 1 min bars. Same is true for weekly, monthly and yearly bars that use dayily feed from ByBit API via the adapter. This means that you can expect quite similar to ByBit trading terminal bar plots for 1 min and 1 day charts but other types of charts can and probably will differ slightly.
+- NinjaTrader accepts only min, day and tick data from Bybit. This means that the adapter feeds NinjaTrader with minute data from Bybit API and NinjaTrader builds all intraday bars using 1 min bars. Same is true for weekly, monthly and yearly bars that use dayily feed from Bybit API via the adapter. This means that you can expect quite similar to Bybit trading terminal bar plots for 1 min and 1 day charts but other types of charts can and probably will differ slightly.
 
-- If you experience connection issues, go to your browser and enter the website credentials you are logging in with. Bybit.com , .us or other that you selected in the configuration window. If your browser does not open the page that means ByBit is blocked in your country. In this case you will need a VPN.
+- If you experience connection issues, go to your browser and enter the website credentials you are logging in with. Bybit.com , .us or other that you selected in the configuration window. If your browser does not open the page that means Bybit is blocked in your country. In this case you will need a VPN.
 
 
 
